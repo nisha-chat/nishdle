@@ -213,7 +213,7 @@ function submitWord(wordRow, keyPress){
 			}
 
 			if(score === 5){
-				notification.innerText = 'Well done, you won! Enter to play again';
+				notification.innerText = 'Well done, you won! Refresh to play again';
 				gameOver();
 			}
 			else if(currentRow == 5){
