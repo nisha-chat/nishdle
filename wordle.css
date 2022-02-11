@@ -7,9 +7,14 @@ html, body{
 	font-family: fantasy;
 }
 
+@media only screen and (max-width: 1000px) {
+  #container {
+    zoom: 200%;
+  }
+}
+
 #container{
 	width: 100%;
-	max-width: 600px;
 	margin: 0 auto;
 	height: 100%;
 	display: flex;
